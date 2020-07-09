@@ -48,8 +48,8 @@ while run:
             if event.key==pygame.K_RETURN:
                 rect = pygame.Rect(380,60,270,390)
                 sub = win.subsurface(rect)
-                pygame.image.save(sub,"Math_quiz/test.jpg")
-                predicted_ans=predict('Math_quiz/test.jpg')
+                pygame.image.save(sub,"test.jpg")
+                predicted_ans=predict('test.jpg')
                 if predicted_ans==answer:
                     score+=5
                     level+=1
