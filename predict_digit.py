@@ -1,7 +1,7 @@
 from PIL import Image
 import cv2
 import numpy as np
-from keras.models import load_model
+from keras.models import load_model 
 
 model = load_model('my_mnist_model.h5')
 
