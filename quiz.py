@@ -1,4 +1,4 @@
-import pygame
+import pygame 
 import random
 from solve import Problem
 from predict_digit import predict
